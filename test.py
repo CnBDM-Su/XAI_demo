@@ -7,7 +7,8 @@ from sklearn.linear_model import LogisticRegression
 import plotly.graph_objects as go
 import plotly.express as px
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import precision_score, recall_score, roc_auc_score, roc_curve
+from sklearn.metrics import precision_score, recall_score, roc_auc_score, roc_curve, confusion_matrix, accuracy_score
+# import seaborn as sn
 
 # from sklearn.neural_network import MLPClassifier
 # from xgboost import XGBClassifier
@@ -31,6 +32,7 @@ class Model:
     def split(self,test_size):
         self.tr_x, self.te_x, self.tr_y, self.te_y = train_test_split(self.x, self.y, test_size=test_size)
 
+    @st.cache()
     def model_training(self,model):
         if model == 'RF':
             self.model = RandomForestClassifier(n_jobs=-1)
@@ -126,86 +128,78 @@ class Model:
         # _________________________________evaluation_______________________________
         with st.expander("Evaluation"):
             left_column, right_column = st.columns(2)
+            if self.pred_prob.shape[0] != 0:
+                pred = []
+                for i in self.pred_prob[:, -1]:
+                    if i > float(thres):
+                        pred.append(1)
+                    else:
+                        pred.append(0)
+                fpr, tpr, _ = roc_curve(self.te_y, self.pred_prob[:, -1])
+                fig3 = go.Figure(data=go.Scatter(x=fpr, y=tpr))
+
+                map = confusion_matrix(self.te_y, pred)
+                fig4 = px.imshow(map,
+                                 labels=dict(x="X1", y="X2", color="Productivity"),
+                                 x=[0,1],
+                                 y=[0,1]
+                                 )
+
+
             with left_column:
                 if self.pred_prob.shape[0] != 0:
-                    pred = []
-                    for i in self.pred_prob[:,-1]:
-                        if i > float(thres):
-                            pred.append(1)
-                        else:
-                            pred.append(0)
-
-                    st.write('precision score:',precision_score(self.te_y,pred))
-                    st.write('recall score:', recall_score(self.te_y, pred))
+                    st.write('class 0 precision:',precision_score(self.te_y, pred,pos_label=0))
+                    st.write('class 0 recall:',recall_score(self.te_y, pred,pos_label=0))
+                    st.write('class 1 precision:',precision_score(self.te_y, pred,pos_label=1))
+                    st.write('class 1 recall:',recall_score(self.te_y, pred,pos_label=1))
+                    st.write('accuracy:',accuracy_score(self.te_y, pred))
                     st.write('auc score:', roc_auc_score(self.te_y, self.pred_prob[:,-1]))
+                    st.plotly_chart(fig4, use_container_width=True)
+
 
             with right_column:
                 if self.pred_prob.shape[0] != 0:
-                    fpr, tpr, _ = roc_curve(self.te_y, self.pred_prob[:,-1])
-                    fig3 = go.Figure(data=go.Scatter(x=fpr, y=tpr))
                     st.plotly_chart(fig3, use_container_width=True)
 
-        # # _________________________________evaluation_______________________________
-        # with st.expander("Data exploration"):
-        #     left_column, right_column = st.columns(2)
-        #     with left_column:
-        #         fea1_selectbox = st.selectbox(
-        #             "choose X1",
-        #             (tuple(self.columns))
-        #         )
-        #         fea2_selectbox = st.selectbox(
-        #             "choose X2",
-        #             (tuple(self.columns))
-        #         )
-        #         show_sample = self.data.reindex(index=np.random.random_integers(0, self.data.shape[0], size=5000))
-        #         sample_x = show_sample.loc[:, fea1_selectbox]
-        #         sample_y = show_sample.loc[:, fea2_selectbox]
+        # # _________________________________model analysis_______________________________
+        with st.expander("Model Analysis"):
+            # left_column, right_column = st.columns(2)
+            box_selectbox = st.selectbox(
+                "choose feature",
+                (tuple(self.columns))
+            )
+
+            pos = self.te_x[self.te_y == 1]
+            neg = self.te_x[self.te_y == 0]
+
+            fig5 = go.Figure()
+            fig5.add_trace(go.Box(y=pos.loc[:, box_selectbox], name='positive sample',
+                                 boxpoints="all",marker_color='indianred'))
+            fig5.add_trace(go.Box(y=neg.loc[:, box_selectbox], name='negative sample',
+                                 boxpoints="all",marker_color='lightseagreen'))
+
+            st.plotly_chart(fig5, use_container_width=True)
+
         #
-        #         fig = go.Figure(data=go.Scatter(x=sample_x, y=sample_y, mode='markers'))
-        #         st.plotly_chart(fig, use_container_width=True)
-        #
-        #     with right_column:
-        #         map = self.data.corr().values
-        #         fig2 = px.imshow(map,
-        #                          labels=dict(x="X1", y="X2", color="Productivity"),
-        #                          x=self.columns,
-        #                          y=self.columns
-        #                          )
-        #         st.plotly_chart(fig2, use_container_width=True)
-        #
-        # # _________________________________evaluation_______________________________
-        # with st.expander("Data exploration"):
-        #     left_column, right_column = st.columns(2)
-        #     with left_column:
-        #         fea1_selectbox = st.selectbox(
-        #             "choose X1",
-        #             (tuple(self.columns))
-        #         )
-        #         fea2_selectbox = st.selectbox(
-        #             "choose X2",
-        #             (tuple(self.columns))
-        #         )
-        #         show_sample = self.data.reindex(index=np.random.random_integers(0, self.data.shape[0], size=5000))
-        #         sample_x = show_sample.loc[:, fea1_selectbox]
-        #         sample_y = show_sample.loc[:, fea2_selectbox]
-        #
-        #         fig = go.Figure(data=go.Scatter(x=sample_x, y=sample_y, mode='markers'))
-        #         st.plotly_chart(fig, use_container_width=True)
-        #
-        #     with right_column:
-        #         map = self.data.corr().values
-        #         fig2 = px.imshow(map,
-        #                          labels=dict(x="X1", y="X2", color="Productivity"),
-        #                          x=self.columns,
-        #                          y=self.columns
-        #                          )
-        #         st.plotly_chart(fig2, use_container_width=True)
+        # # _________________________________model explanation_______________________________
+        with st.expander("Model explanation"):
+            # left_column, right_column = st.columns(2)
+            # with left_column:
+            if self.pred_prob.shape[0] != 0:
+                if model_selectbox == 'RF':
+                    fi = self.model.feature_importances_
+                    fig6 = go.Figure(data=go.Bar(x=self.columns, y=fi))
+                    fig6.update_layout(title_text='Feature Importance')
+
+                    st.plotly_chart(fig6, use_container_width=True)
+
 
 
 
 
 
 if __name__ == "__main__":
-    mm = Model()
+    if 'mm' not in dir():
+        mm = Model()
     mm.show()
 
