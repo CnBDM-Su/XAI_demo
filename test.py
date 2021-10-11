@@ -76,6 +76,16 @@ class Model:
 
 #________________________________sidebar________________________________________
 
+        #_____________________________navigation_________________________________
+
+        # page_selectbox = st.sidebar.selectbox(
+        #     "choose Page",
+        #     ("D", "XGB", "DNN")
+        # )
+        page_radio = st.sidebar.radio(
+            "Choose Page",
+            ('Data Exploration', 'Model Evaluation', 'Model Analysis', 'Model Explanation'))
+
         split_input = st.sidebar.text_input('test size', '30')
         self.split(test_size=int(split_input))
 
@@ -98,7 +108,9 @@ class Model:
 #_________________________________main page_______________________________________
 
         #_________________________________data exploration_______________________________
-        with st.expander("Data exploration"):
+
+        if page_radio == 'Data Exploration':
+            st.write('Data Exploration')
             left_column, right_column = st.columns(2)
             with left_column:
                 fea1_selectbox = st.selectbox(
@@ -126,7 +138,8 @@ class Model:
                 st.plotly_chart(fig2, use_container_width=True)
 
         # _________________________________evaluation_______________________________
-        with st.expander("Evaluation"):
+        elif page_radio == 'Model Evaluation':
+            st.write('Model Evaluation')
             left_column, right_column = st.columns(2)
             if self.pred_prob.shape[0] != 0:
                 pred = []
@@ -162,7 +175,8 @@ class Model:
                     st.plotly_chart(fig3, use_container_width=True)
 
         # # _________________________________model analysis_______________________________
-        with st.expander("Model Analysis"):
+        elif page_radio == 'Model Analysis':
+            st.write('Model Analysis')
             # left_column, right_column = st.columns(2)
             box_selectbox = st.selectbox(
                 "choose feature",
@@ -182,7 +196,8 @@ class Model:
 
         #
         # # _________________________________model explanation_______________________________
-        with st.expander("Model explanation"):
+        elif page_radio == 'Model Explanation':
+            st.write('Model Explanation')
             # left_column, right_column = st.columns(2)
             # with left_column:
             if self.pred_prob.shape[0] != 0:
