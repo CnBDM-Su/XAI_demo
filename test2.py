@@ -4,15 +4,16 @@ import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
+from sklearn.neural_network import MLPClassifier
+from xgboost import XGBClassifier
+from pygam import LogisticGAM
 import plotly.graph_objects as go
 import plotly.express as px
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import precision_score, recall_score, roc_auc_score, roc_curve, confusion_matrix, accuracy_score
 # import seaborn as sn
 
-# from sklearn.neural_network import MLPClassifier
-# from xgboost import XGBClassifier
-# from pygam import LogisticGAM
+#
 
 @st.cache()
 def data_prepare():
@@ -39,16 +40,24 @@ def model_training(model):
         pred_prob = model.predict_proba(te_x)
 
     elif model == 'DNN':
-        pass
+        model = MLPClassifier(hidden_layer_sizes=(100,100),alpha=0.1)
+        model.fit(tr_x,tr_y)
+        pred_prob = model.predict_proba(te_x)
 
     elif model == 'XGB':
-        pass
+        model = XGBClassifier(n_jobs=-1)
+        model.fit(tr_x,tr_y)
+        pred_prob = model.predict_proba(te_x)
 
     elif model == 'GAM':
-        pass
+        model = LogisticGAM()
+        model.fit(tr_x,tr_y)
+        pred_prob = model.predict_proba(te_x)
 
     elif model == 'GLM':
-        pass
+        model = LogisticRegression()
+        model.fit(tr_x, tr_y)
+        pred_prob = model.predict_proba(te_x)
 
     return model, pred_prob
 
@@ -89,24 +98,29 @@ st.title("XAI demo")
 
 page_radio = st.sidebar.radio(
     "Choose Page",
-    ('Data Exploration', 'Model Evaluation', 'Model Analysis', 'Model Explanation'))
-
-split_input = st.sidebar.text_input('test size', '30')
+    ('Data Exploration', 'Model Analysis', 'Model Evaluation'))
 
 
-model_selectbox = st.sidebar.selectbox(
+
+form = st.sidebar.form(key='my_form')
+split_input = form.text_input('test size', '30')
+
+model_selectbox = form.selectbox(
     "choose XAI model",
-    ("RF", "XGB", "DNN")
+    ("GLM","GAM","RF", "XGB", "DNN")
 )
-st.sidebar.write(model_selectbox + ' parameter:', )
-if model_selectbox == "RF":
-    age = st.sidebar.slider('Tree depth:', 1, 10, 1)
-elif model_selectbox == "DNN":
-    title = st.sidebar.text_input('Network depth', '')
+thres = form.text_input('Threshold value', '0.5')
+form.write('Ensemble Tree Model Parameters:', )
+tree_num = form.text_input('Tree number:', '')
+tree_depth = form.slider('Tree depth:', 1, 10, 1)
+form.write('DNN Model Parameters:', )
+layer_size = form.text_input('Network Architecture:', '(16,16)')
+lr = form.text_input('Learning Rate:', '0.1')
+
+submit_button = form.form_submit_button(label='Train')
+print(submit_button)
 
 
-
-thres = st.sidebar.text_input('Threshold value', '0.5')
 
 #_________________________________main page_______________________________________
 
@@ -136,11 +150,35 @@ if page_radio == 'Data Exploration':
         fig2 = corr_map(data)
         st.plotly_chart(fig2, use_container_width=True)
 
+
+
+# # _________________________________model analysis_______________________________
+elif page_radio == 'Model Analysis':
+    st.write('Model Analysis')
+    # left_column, right_column = st.columns(2)
+    tr_x, te_x, tr_y, te_y = split(x, y, test_size=int(split_input))
+    box_selectbox = st.selectbox(
+        "choose feature",
+        (tuple(columns))
+    )
+
+    pos = te_x[te_y == 1]
+    neg = te_x[te_y == 0]
+
+    fig5 = go.Figure()
+    fig5.add_trace(go.Box(y=pos.loc[:, box_selectbox], name='positive sample',
+                         boxpoints="all",marker_color='indianred'))
+    fig5.add_trace(go.Box(y=neg.loc[:, box_selectbox], name='negative sample',
+                         boxpoints="all",marker_color='lightseagreen'))
+
+    st.plotly_chart(fig5, use_container_width=True)
+
 # _________________________________evaluation_______________________________
 elif page_radio == 'Model Evaluation':
 
-    tr_x, te_x, tr_y, te_y = split(x,y,test_size=int(split_input))
-    model, pred_prob = model_training(model_selectbox)
+    if submit_button:
+        tr_x, te_x, tr_y, te_y = split(x,y,test_size=int(split_input))
+        model, pred_prob = model_training(model_selectbox)
 
     st.write('Model Evaluation')
     left_column, right_column = st.columns(2)
@@ -176,34 +214,11 @@ elif page_radio == 'Model Evaluation':
         if pred_prob.shape[0] != 0:
             st.plotly_chart(fig3, use_container_width=True)
 
-# # _________________________________model analysis_______________________________
-elif page_radio == 'Model Analysis':
-    st.write('Model Analysis')
-    # left_column, right_column = st.columns(2)
-    tr_x, te_x, tr_y, te_y = split(x, y, test_size=int(split_input))
-    box_selectbox = st.selectbox(
-        "choose feature",
-        (tuple(columns))
-    )
-
-    pos = te_x[te_y == 1]
-    neg = te_x[te_y == 0]
-
-    fig5 = go.Figure()
-    fig5.add_trace(go.Box(y=pos.loc[:, box_selectbox], name='positive sample',
-                         boxpoints="all",marker_color='indianred'))
-    fig5.add_trace(go.Box(y=neg.loc[:, box_selectbox], name='negative sample',
-                         boxpoints="all",marker_color='lightseagreen'))
-
-    st.plotly_chart(fig5, use_container_width=True)
-
 # # _________________________________model explanation_______________________________
-elif page_radio == 'Model Explanation':
+# elif page_radio == 'Model Explanation':
     st.write('Model Explanation')
     # left_column, right_column = st.columns(2)
     # with left_column:
-    tr_x, te_x, tr_y, te_y = split(x, y, test_size=int(split_input))
-    model, pred_prob = model_training(model_selectbox)
 
     if pred_prob.shape[0] != 0:
         if model_selectbox == 'RF':
