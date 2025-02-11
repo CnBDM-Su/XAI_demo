@@ -1,0 +1,1882 @@
+{
+ "DataSet": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSet"
+  }
+ ],
+ "MoScoredRegressor": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.models.wrappers.scored",
+   "module_short": "modeva.models.wrappers.scored",
+   "name": "MoScoredRegressor"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.models.wrappers",
+   "module_short": "modeva.models.wrappers",
+   "name": "MoScoredRegressor"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.models",
+   "module_short": "modeva.models",
+   "name": "MoScoredRegressor"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "MoScoredRegressor"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.models.base",
+   "module_short": "modeva.models.base",
+   "name": "ModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.models",
+   "module_short": "modeva.models",
+   "name": "ModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "ModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "RegressorMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "RegressorMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._estimator_html_repr",
+   "module_short": "sklearn.utils._estimator_html_repr",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._metadata_requests",
+   "module_short": "sklearn.utils._metadata_requests",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.models",
+   "module_short": "modeva.models",
+   "name": "MoScoredRegressor"
+  }
+ ],
+ "MoXGBRegressor": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.models.wrappers.builtin.xgboost",
+   "module_short": "modeva.models.wrappers.builtin.xgboost",
+   "name": "MoXGBRegressor"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.models.wrappers.builtin",
+   "module_short": "modeva.models.wrappers.builtin",
+   "name": "MoXGBRegressor"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.models.wrappers",
+   "module_short": "modeva.models.wrappers",
+   "name": "MoXGBRegressor"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.models",
+   "module_short": "modeva.models",
+   "name": "MoXGBRegressor"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "MoXGBRegressor"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.models.wrappers.sklearn",
+   "module_short": "modeva.models.wrappers.sklearn",
+   "name": "MoSKLearnRegressor"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.models.wrappers",
+   "module_short": "modeva.models.wrappers",
+   "name": "MoSKLearnRegressor"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.models",
+   "module_short": "modeva.models",
+   "name": "MoSKLearnRegressor"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "MoSKLearnRegressor"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.models.wrappers.builtin.fanova_base",
+   "module_short": "modeva.models.wrappers.builtin.fanova_base",
+   "name": "FANOVATreeInterpretBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.models.wrappers.builtin",
+   "module_short": "modeva.models.wrappers.builtin",
+   "name": "FANOVATreeInterpretBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.models.wrappers",
+   "module_short": "modeva.models.wrappers",
+   "name": "FANOVATreeInterpretBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.models",
+   "module_short": "modeva.models",
+   "name": "FANOVATreeInterpretBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "FANOVATreeInterpretBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.models.base",
+   "module_short": "modeva.models.base",
+   "name": "ModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.models",
+   "module_short": "modeva.models",
+   "name": "ModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "ModelBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "RegressorMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "RegressorMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseEstimator"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._estimator_html_repr",
+   "module_short": "sklearn.utils._estimator_html_repr",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_HTMLDocumentationLinkMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils._metadata_requests",
+   "module_short": "sklearn.utils._metadata_requests",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_MetadataRequester"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.models",
+   "module_short": "modeva.models",
+   "name": "MoXGBRegressor"
+  }
+ ],
+ "TestSuite": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.testsuite.local_testsuite",
+   "module_short": "modeva.testsuite.local_testsuite",
+   "name": "LocalTestSuite"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.testsuite",
+   "module_short": "modeva.testsuite",
+   "name": "LocalTestSuite"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalTestSuite"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "TestSuite"
+  }
+ ],
+ "columns": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "list"
+  }
+ ],
+ "data": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core.frame",
+   "module_short": "pandas.core.frame",
+   "name": "DataFrame"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core",
+   "module_short": "pandas.core",
+   "name": "DataFrame"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "DataFrame"
+  }
+ ],
+ "df": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core.frame",
+   "module_short": "pandas.core.frame",
+   "name": "DataFrame"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core",
+   "module_short": "pandas.core",
+   "name": "DataFrame"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "DataFrame"
+  }
+ ],
+ "ds": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet"
+  }
+ ],
+ "ds.load_dataframe": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.load_dataframe"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.load_dataframe"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.load_dataframe"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.load_dataframe"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.load_dataframe"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.load_dataframe"
+  }
+ ],
+ "ds.set_random_split": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.set_random_split"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.set_random_split"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.set_random_split"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.set_random_split"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.set_random_split"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.set_random_split"
+  }
+ ],
+ "ds.test_idx": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.test_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.test_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.test_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.test_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.test_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.test_idx"
+  }
+ ],
+ "ds.to_df": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.to_df"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.to_df"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.to_df"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.to_df"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.to_df"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.to_df"
+  }
+ ],
+ "ds.train_idx": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.train_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.train_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.train_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.train_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.train_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.train_idx"
+  }
+ ],
+ "ds.train_x": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.train_x"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.train_x"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.train_x"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.train_x"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.train_x"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.train_x"
+  }
+ ],
+ "ds.train_y": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.train_y"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.train_y"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.train_y"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.train_y"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.train_y"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.train_y"
+  }
+ ],
+ "ds.x": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.x"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.x"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.x"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.x"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.x"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.x"
+  }
+ ],
+ "make_friedman1": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.datasets",
+   "module_short": "sklearn.datasets",
+   "name": "make_friedman1"
+  }
+ ],
+ "model": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.models.wrappers.scored",
+   "module_short": "modeva.models.wrappers.scored",
+   "name": "MoScoredRegressor"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.models.wrappers",
+   "module_short": "modeva.models.wrappers",
+   "name": "MoScoredRegressor"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.models",
+   "module_short": "modeva.models",
+   "name": "MoScoredRegressor"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "MoScoredRegressor"
+  }
+ ],
+ "model.fit": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.models.wrappers.scored",
+   "module_short": "modeva.models.wrappers.scored",
+   "name": "MoScoredRegressor.fit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.models.wrappers",
+   "module_short": "modeva.models.wrappers",
+   "name": "MoScoredRegressor.fit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.models",
+   "module_short": "modeva.models",
+   "name": "MoScoredRegressor.fit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "MoScoredRegressor.fit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.models.base",
+   "module_short": "modeva.models.base",
+   "name": "ModelBase.fit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.models",
+   "module_short": "modeva.models",
+   "name": "ModelBase.fit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "ModelBase.fit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "RegressorMixin.fit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "RegressorMixin.fit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "BaseEstimator.fit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseEstimator.fit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils._estimator_html_repr",
+   "module_short": "sklearn.utils._estimator_html_repr",
+   "name": "_HTMLDocumentationLinkMixin.fit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_HTMLDocumentationLinkMixin.fit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_HTMLDocumentationLinkMixin.fit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils._metadata_requests",
+   "module_short": "sklearn.utils._metadata_requests",
+   "name": "_MetadataRequester.fit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_MetadataRequester.fit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_MetadataRequester.fit"
+  }
+ ],
+ "model.predict": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.models.wrappers.scored",
+   "module_short": "modeva.models.wrappers.scored",
+   "name": "MoScoredRegressor.predict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.models.wrappers",
+   "module_short": "modeva.models.wrappers",
+   "name": "MoScoredRegressor.predict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.models",
+   "module_short": "modeva.models",
+   "name": "MoScoredRegressor.predict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "MoScoredRegressor.predict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.models.base",
+   "module_short": "modeva.models.base",
+   "name": "ModelBase.predict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.models",
+   "module_short": "modeva.models",
+   "name": "ModelBase.predict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "ModelBase.predict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "RegressorMixin.predict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "RegressorMixin.predict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.base",
+   "module_short": "sklearn.base",
+   "name": "BaseEstimator.predict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "BaseEstimator.predict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils._estimator_html_repr",
+   "module_short": "sklearn.utils._estimator_html_repr",
+   "name": "_HTMLDocumentationLinkMixin.predict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_HTMLDocumentationLinkMixin.predict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_HTMLDocumentationLinkMixin.predict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils._metadata_requests",
+   "module_short": "sklearn.utils._metadata_requests",
+   "name": "_MetadataRequester.predict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.utils",
+   "module_short": "sklearn.utils",
+   "name": "_MetadataRequester.predict"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn",
+   "module_short": "sklearn",
+   "name": "_MetadataRequester.predict"
+  }
+ ],
+ "new_ds": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet"
+  }
+ ],
+ "new_ds.load_dataframe": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.load_dataframe"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.load_dataframe"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.load_dataframe"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.load_dataframe"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.load_dataframe"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.load_dataframe"
+  }
+ ],
+ "new_ds.register": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.register"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.register"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.register"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.register"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.register"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.register"
+  }
+ ],
+ "new_ds.set_prediction": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.set_prediction"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.set_prediction"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.set_prediction"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.set_prediction"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.set_prediction"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.set_prediction"
+  }
+ ],
+ "new_ds.set_target": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.set_target"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.set_target"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.set_target"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.set_target"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.set_target"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.set_target"
+  }
+ ],
+ "new_ds.set_test_idx": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.set_test_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.set_test_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.set_test_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.set_test_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.set_test_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.set_test_idx"
+  }
+ ],
+ "new_ds.set_train_idx": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.set_train_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.set_train_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.set_train_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.set_train_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.set_train_idx"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.set_train_idx"
+  }
+ ],
+ "np.array": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "builtin_function_or_method"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "array"
+  }
+ ],
+ "np.concatenate": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "_ArrayFunctionDispatcher"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "concatenate"
+  }
+ ],
+ "pd.DataFrame": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pandas.core.frame",
+   "module_short": "pandas.core.frame",
+   "name": "DataFrame"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pandas.core",
+   "module_short": "pandas.core",
+   "name": "DataFrame"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "DataFrame"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pandas.core.generic",
+   "module_short": "pandas.core.generic",
+   "name": "NDFrame"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pandas.core",
+   "module_short": "pandas.core",
+   "name": "NDFrame"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "NDFrame"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pandas.core.arraylike",
+   "module_short": "pandas.core.arraylike",
+   "name": "OpsMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pandas.core",
+   "module_short": "pandas.core",
+   "name": "OpsMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "OpsMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pandas.core.base",
+   "module_short": "pandas.core.base",
+   "name": "PandasObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pandas.core",
+   "module_short": "pandas.core",
+   "name": "PandasObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "PandasObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pandas.core.indexing",
+   "module_short": "pandas.core.indexing",
+   "name": "IndexingMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pandas.core",
+   "module_short": "pandas.core",
+   "name": "IndexingMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "IndexingMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pandas.core.accessor",
+   "module_short": "pandas.core.accessor",
+   "name": "DirNamesMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pandas.core",
+   "module_short": "pandas.core",
+   "name": "DirNamesMixin"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "DirNamesMixin"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "DataFrame"
+  }
+ ],
+ "reload_ds": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet"
+  }
+ ],
+ "reload_ds.load_registered_data": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.load_registered_data"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.load_registered_data"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.load_registered_data"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.load_registered_data"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.load_registered_data"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.load_registered_data"
+  }
+ ],
+ "results": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.utils.results",
+   "module_short": "modeva.utils.results",
+   "name": "ValidationResult"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.utils",
+   "module_short": "modeva.utils",
+   "name": "ValidationResult"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "ValidationResult"
+  }
+ ],
+ "results.table": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core.frame",
+   "module_short": "pandas.core.frame",
+   "name": "DataFrame"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core",
+   "module_short": "pandas.core",
+   "name": "DataFrame"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "DataFrame"
+  }
+ ],
+ "ts": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.testsuite.local_testsuite",
+   "module_short": "modeva.testsuite.local_testsuite",
+   "name": "LocalTestSuite"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.testsuite",
+   "module_short": "modeva.testsuite",
+   "name": "LocalTestSuite"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalTestSuite"
+  }
+ ],
+ "ts.diagnose_accuracy_table": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.testsuite.local_testsuite",
+   "module_short": "modeva.testsuite.local_testsuite",
+   "name": "LocalTestSuite.diagnose_accuracy_table"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.testsuite",
+   "module_short": "modeva.testsuite",
+   "name": "LocalTestSuite.diagnose_accuracy_table"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalTestSuite.diagnose_accuracy_table"
+  }
+ ],
+ "ts.diagnose_reliability": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.testsuite.local_testsuite",
+   "module_short": "modeva.testsuite.local_testsuite",
+   "name": "LocalTestSuite.diagnose_reliability"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.testsuite",
+   "module_short": "modeva.testsuite",
+   "name": "LocalTestSuite.diagnose_reliability"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalTestSuite.diagnose_reliability"
+  }
+ ],
+ "ts.diagnose_residual_analysis": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.testsuite.local_testsuite",
+   "module_short": "modeva.testsuite.local_testsuite",
+   "name": "LocalTestSuite.diagnose_residual_analysis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.testsuite",
+   "module_short": "modeva.testsuite",
+   "name": "LocalTestSuite.diagnose_residual_analysis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalTestSuite.diagnose_residual_analysis"
+  }
+ ],
+ "ts.diagnose_resilience": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.testsuite.local_testsuite",
+   "module_short": "modeva.testsuite.local_testsuite",
+   "name": "LocalTestSuite.diagnose_resilience"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.testsuite",
+   "module_short": "modeva.testsuite",
+   "name": "LocalTestSuite.diagnose_resilience"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalTestSuite.diagnose_resilience"
+  }
+ ],
+ "ts.diagnose_slicing_accuracy": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.testsuite.local_testsuite",
+   "module_short": "modeva.testsuite.local_testsuite",
+   "name": "LocalTestSuite.diagnose_slicing_accuracy"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.testsuite",
+   "module_short": "modeva.testsuite",
+   "name": "LocalTestSuite.diagnose_slicing_accuracy"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalTestSuite.diagnose_slicing_accuracy"
+  }
+ ],
+ "ts.diagnose_slicing_overfit": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.testsuite.local_testsuite",
+   "module_short": "modeva.testsuite.local_testsuite",
+   "name": "LocalTestSuite.diagnose_slicing_overfit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.testsuite",
+   "module_short": "modeva.testsuite",
+   "name": "LocalTestSuite.diagnose_slicing_overfit"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalTestSuite.diagnose_slicing_overfit"
+  }
+ ],
+ "x": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "y": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "y.reshape": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "builtin_function_or_method"
+  }
+ ]
+}

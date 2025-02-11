@@ -1,0 +1,497 @@
+{
+ "DataSet": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSet"
+  }
+ ],
+ "ds": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet"
+  }
+ ],
+ "ds.eda_1d": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.eda_1d"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.eda_1d"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.eda_1d"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.eda_1d"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.eda_1d"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.eda_1d"
+  }
+ ],
+ "ds.eda_2d": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.eda_2d"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.eda_2d"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.eda_2d"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.eda_2d"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.eda_2d"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.eda_2d"
+  }
+ ],
+ "ds.eda_3d": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.eda_3d"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.eda_3d"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.eda_3d"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.eda_3d"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.eda_3d"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.eda_3d"
+  }
+ ],
+ "ds.eda_correlation": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.eda_correlation"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.eda_correlation"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.eda_correlation"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.eda_correlation"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.eda_correlation"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.eda_correlation"
+  }
+ ],
+ "ds.eda_pca": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.eda_pca"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.eda_pca"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.eda_pca"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.eda_pca"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.eda_pca"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.eda_pca"
+  }
+ ],
+ "ds.eda_umap": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.eda_umap"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.eda_umap"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.eda_umap"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.eda_umap"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.eda_umap"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.eda_umap"
+  }
+ ],
+ "ds.load": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.load"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.load"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.load"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.load"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.load"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.load"
+  }
+ ],
+ "ds.summary": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.local_dataset",
+   "module_short": "modeva.data.local_dataset",
+   "name": "LocalDataSet.summary"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "LocalDataSet.summary"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "LocalDataSet.summary"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data.base",
+   "module_short": "modeva.data.base",
+   "name": "DataSetBase.summary"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.data",
+   "module_short": "modeva.data",
+   "name": "DataSetBase.summary"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "DataSetBase.summary"
+  }
+ ],
+ "result": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.utils.results",
+   "module_short": "modeva.utils.results",
+   "name": "ValidationResult"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.utils",
+   "module_short": "modeva.utils",
+   "name": "ValidationResult"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "ValidationResult"
+  }
+ ],
+ "result.plot": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.utils.results",
+   "module_short": "modeva.utils.results",
+   "name": "ValidationResult.plot"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva.utils",
+   "module_short": "modeva.utils",
+   "name": "ValidationResult.plot"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "modeva",
+   "module_short": "modeva",
+   "name": "ValidationResult.plot"
+  }
+ ],
+ "result.table": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core.frame",
+   "module_short": "pandas.core.frame",
+   "name": "DataFrame"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core",
+   "module_short": "pandas.core",
+   "name": "DataFrame"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "DataFrame"
+  }
+ ]
+}
