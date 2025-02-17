@@ -1,0 +1,513 @@
+{
+ "HTML": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core.display",
+   "module_short": "IPython.core.display",
+   "name": "HTML"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core",
+   "module_short": "IPython.core",
+   "name": "HTML"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython",
+   "module_short": "IPython",
+   "name": "HTML"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core.display",
+   "module_short": "IPython.core.display",
+   "name": "TextDisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core",
+   "module_short": "IPython.core",
+   "name": "TextDisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython",
+   "module_short": "IPython",
+   "name": "TextDisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core.display",
+   "module_short": "IPython.core.display",
+   "name": "DisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core",
+   "module_short": "IPython.core",
+   "name": "DisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython",
+   "module_short": "IPython",
+   "name": "DisplayObject"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "IPython.display",
+   "module_short": "IPython.display",
+   "name": "HTML"
+  }
+ ],
+ "fig": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure"
+  }
+ ],
+ "fig.add": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.add"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.add"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.add"
+  }
+ ],
+ "fig.set_title": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.set_title"
+  }
+ ],
+ "fig.show": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.show"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.show"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.show"
+  }
+ ],
+ "label": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "line": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure"
+  }
+ ],
+ "line.set_title": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.set_title"
+  }
+ ],
+ "make_circles": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "sklearn.datasets",
+   "module_short": "sklearn.datasets",
+   "name": "make_circles"
+  }
+ ],
+ "mc.Figure": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure"
+  }
+ ],
+ "mc.SubPlots": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "SubPlots"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "SubPlots"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "SubPlots"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "SubPlots"
+  }
+ ],
+ "mc.lineplot": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "lineplot"
+  }
+ ],
+ "mc.scatterplot": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "scatterplot"
+  }
+ ],
+ "plot": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure"
+  }
+ ],
+ "pos": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "scatter": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure"
+  }
+ ],
+ "scatter.set_title": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.set_title"
+  }
+ ],
+ "sub": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "SubPlots"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "SubPlots"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "SubPlots"
+  }
+ ],
+ "sub.show": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "SubPlots.show"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "SubPlots.show"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "SubPlots.show"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.show"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.show"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.show"
+  }
+ ],
+ "x": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ],
+ "y": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ]
+}

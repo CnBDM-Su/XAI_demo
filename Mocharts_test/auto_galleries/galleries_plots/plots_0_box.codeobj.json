@@ -1,0 +1,290 @@
+{
+ "HTML": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core.display",
+   "module_short": "IPython.core.display",
+   "name": "HTML"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core",
+   "module_short": "IPython.core",
+   "name": "HTML"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython",
+   "module_short": "IPython",
+   "name": "HTML"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core.display",
+   "module_short": "IPython.core.display",
+   "name": "TextDisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core",
+   "module_short": "IPython.core",
+   "name": "TextDisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython",
+   "module_short": "IPython",
+   "name": "TextDisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core.display",
+   "module_short": "IPython.core.display",
+   "name": "DisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core",
+   "module_short": "IPython.core",
+   "name": "DisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython",
+   "module_short": "IPython",
+   "name": "DisplayObject"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "IPython.display",
+   "module_short": "IPython.display",
+   "name": "HTML"
+  }
+ ],
+ "box": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure"
+  }
+ ],
+ "box.set_legend": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.set_legend"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.set_legend"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.set_legend"
+  }
+ ],
+ "box.set_title": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.set_title"
+  }
+ ],
+ "box.set_tooltip": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.set_tooltip"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.set_tooltip"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.set_tooltip"
+  }
+ ],
+ "box.set_xaxis": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.set_xaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.set_xaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.set_xaxis"
+  }
+ ],
+ "box.set_yaxis": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.set_yaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.set_yaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.set_yaxis"
+  }
+ ],
+ "box.show": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.show"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.show"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.show"
+  }
+ ],
+ "mc.boxplot": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "boxplot"
+  }
+ ],
+ "pd.read_csv": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "read_csv"
+  }
+ ],
+ "tips": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core.frame",
+   "module_short": "pandas.core.frame",
+   "name": "DataFrame"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core",
+   "module_short": "pandas.core",
+   "name": "DataFrame"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "DataFrame"
+  }
+ ]
+}

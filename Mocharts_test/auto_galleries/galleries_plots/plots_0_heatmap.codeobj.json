@@ -1,0 +1,315 @@
+{
+ "HTML": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core.display",
+   "module_short": "IPython.core.display",
+   "name": "HTML"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core",
+   "module_short": "IPython.core",
+   "name": "HTML"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython",
+   "module_short": "IPython",
+   "name": "HTML"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core.display",
+   "module_short": "IPython.core.display",
+   "name": "TextDisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core",
+   "module_short": "IPython.core",
+   "name": "TextDisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython",
+   "module_short": "IPython",
+   "name": "TextDisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core.display",
+   "module_short": "IPython.core.display",
+   "name": "DisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core",
+   "module_short": "IPython.core",
+   "name": "DisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython",
+   "module_short": "IPython",
+   "name": "DisplayObject"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "IPython.display",
+   "module_short": "IPython.display",
+   "name": "HTML"
+  }
+ ],
+ "hm": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure"
+  }
+ ],
+ "hm.set_figsize": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.set_figsize"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.set_figsize"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.set_figsize"
+  }
+ ],
+ "hm.set_title": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.set_title"
+  }
+ ],
+ "hm.set_toolbox": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.set_toolbox"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.set_toolbox"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.set_toolbox"
+  }
+ ],
+ "hm.set_visualmap": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.set_visualmap"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.set_visualmap"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.set_visualmap"
+  }
+ ],
+ "hm.set_xaxis": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.set_xaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.set_xaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.set_xaxis"
+  }
+ ],
+ "hm.set_yaxis": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.set_yaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.set_yaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.set_yaxis"
+  }
+ ],
+ "hm.show": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.show"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.show"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.show"
+  }
+ ],
+ "mc.heatmap": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "heatmap"
+  }
+ ],
+ "np.random.rand": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "builtin_function_or_method"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy.random",
+   "module_short": "numpy.random",
+   "name": "rand"
+  }
+ ],
+ "np.round": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "_ArrayFunctionDispatcher"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "round"
+  }
+ ],
+ "uniform_data": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "numpy",
+   "module_short": "numpy",
+   "name": "ndarray"
+  }
+ ]
+}

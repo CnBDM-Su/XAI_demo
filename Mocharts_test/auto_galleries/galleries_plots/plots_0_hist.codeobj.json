@@ -1,0 +1,395 @@
+{
+ "HTML": [
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core.display",
+   "module_short": "IPython.core.display",
+   "name": "HTML"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core",
+   "module_short": "IPython.core",
+   "name": "HTML"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython",
+   "module_short": "IPython",
+   "name": "HTML"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core.display",
+   "module_short": "IPython.core.display",
+   "name": "TextDisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core",
+   "module_short": "IPython.core",
+   "name": "TextDisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython",
+   "module_short": "IPython",
+   "name": "TextDisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core.display",
+   "module_short": "IPython.core.display",
+   "name": "DisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython.core",
+   "module_short": "IPython.core",
+   "name": "DisplayObject"
+  },
+  {
+   "is_class": true,
+   "is_explicit": false,
+   "module": "IPython",
+   "module_short": "IPython",
+   "name": "DisplayObject"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "IPython.display",
+   "module_short": "IPython.display",
+   "name": "HTML"
+  }
+ ],
+ "hist": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure"
+  }
+ ],
+ "hist.set_legend": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.set_legend"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.set_legend"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.set_legend"
+  }
+ ],
+ "hist.set_title": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.set_title"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.set_title"
+  }
+ ],
+ "hist.set_xaxis": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.set_xaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.set_xaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.set_xaxis"
+  }
+ ],
+ "hist.set_yaxis": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.set_yaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.set_yaxis"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.set_yaxis"
+  }
+ ],
+ "hist.show": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot.container",
+   "module_short": "mocharts.plot.container",
+   "name": "Figure.show"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts.plot",
+   "module_short": "mocharts.plot",
+   "name": "Figure.show"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "Figure.show"
+  }
+ ],
+ "mc.histplot": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "mocharts",
+   "module_short": "mocharts",
+   "name": "histplot"
+  }
+ ],
+ "pd.read_csv": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "builtins",
+   "module_short": "builtins",
+   "name": "function"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "read_csv"
+  }
+ ],
+ "penguins": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core.frame",
+   "module_short": "pandas.core.frame",
+   "name": "DataFrame"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core",
+   "module_short": "pandas.core",
+   "name": "DataFrame"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "DataFrame"
+  }
+ ],
+ "penguins.dropna": [
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core.frame",
+   "module_short": "pandas.core.frame",
+   "name": "DataFrame.dropna"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core",
+   "module_short": "pandas.core",
+   "name": "DataFrame.dropna"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "DataFrame.dropna"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core.generic",
+   "module_short": "pandas.core.generic",
+   "name": "NDFrame.dropna"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core",
+   "module_short": "pandas.core",
+   "name": "NDFrame.dropna"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "NDFrame.dropna"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core.arraylike",
+   "module_short": "pandas.core.arraylike",
+   "name": "OpsMixin.dropna"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core",
+   "module_short": "pandas.core",
+   "name": "OpsMixin.dropna"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "OpsMixin.dropna"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core.base",
+   "module_short": "pandas.core.base",
+   "name": "PandasObject.dropna"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core",
+   "module_short": "pandas.core",
+   "name": "PandasObject.dropna"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "PandasObject.dropna"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core.indexing",
+   "module_short": "pandas.core.indexing",
+   "name": "IndexingMixin.dropna"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core",
+   "module_short": "pandas.core",
+   "name": "IndexingMixin.dropna"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "IndexingMixin.dropna"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core.accessor",
+   "module_short": "pandas.core.accessor",
+   "name": "DirNamesMixin.dropna"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas.core",
+   "module_short": "pandas.core",
+   "name": "DirNamesMixin.dropna"
+  },
+  {
+   "is_class": false,
+   "is_explicit": false,
+   "module": "pandas",
+   "module_short": "pandas",
+   "name": "DirNamesMixin.dropna"
+  }
+ ]
+}
