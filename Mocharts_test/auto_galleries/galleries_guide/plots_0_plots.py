@@ -9,7 +9,7 @@ Mocharts supports a variety of chart types. In this example, we will demonstrate
 # Installation
 
 # To install the required package, use the following command:
-# pip install mocharts
+# !pip install mocharts
 
 
 # %%

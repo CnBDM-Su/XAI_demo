@@ -10,7 +10,7 @@ Mocharts supports various layout options for displaying multiple plots. In this 
 # Installation
 
 # To install the required package, use the following command:
-# pip install mocharts
+# !pip install mocharts
 
 # %%
 # Figure (Single Plot)

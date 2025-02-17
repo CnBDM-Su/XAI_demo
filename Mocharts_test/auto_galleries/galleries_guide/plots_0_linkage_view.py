@@ -10,7 +10,7 @@ Mocharts supports linked views for multiple charts. In this example, we demonstr
 # Installation
 
 # To install the required package, use the following command:
-# pip install mocharts
+# !pip install mocharts
 
 # %%
 # Get Iris dataset
@@ -69,7 +69,7 @@ html_content = f"""
 HTML(html_content)
 
 # %%
-# Line Plot
+# View density plot of seleted samples
 def func1(js_input, py_input):  # for use by card2
     selected = js_input['selected']
     if len(selected) != 0:
@@ -81,6 +81,7 @@ def func1(js_input, py_input):  # for use by card2
         fig.set_xaxis(axis_name='Species')
         fig.set_tooltip(precision=4)
         fig.set_title('Species of selected samples')
+        fig.set_figsize(figsize=(4,4))
         return fig.show(silent=True, return_html=True)
 
 sca1 = mc.scatterplot(x=df['sepal length (cm)'], y=df['sepal width (cm)'], allow_large=False)

@@ -9,7 +9,7 @@ Other Plot
 # Installation
 
 # To install the required package, use the following command:
-# pip install mocharts
+# !pip install mocharts
 
 # %%
 # Bar Stem Plot

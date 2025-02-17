@@ -9,13 +9,12 @@
 # Installation
 
 # To install the required package, use the following command:
-# pip install mocharts
+# !pip install mocharts
 
 # %%
 # Simple 3D Scatter
 
 import mocharts as mc
-import numpy as np
 from sklearn.datasets import load_iris
 from IPython.display import HTML
 

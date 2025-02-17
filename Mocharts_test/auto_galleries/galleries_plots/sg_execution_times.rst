@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**00:04.891** total execution time for 9 files **from _source\auto_galleries\galleries_plots**:
+**00:03.804** total execution time for 9 files **from _source\auto_galleries\galleries_plots**:
 
 .. container::
 
@@ -33,29 +33,29 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr__source_auto_galleries_galleries_plots_plots_0_density.py` (``plots_0_density.py``)
-     - 00:02.374
-     - 0.0
-   * - :ref:`sphx_glr__source_auto_galleries_galleries_plots_plots_0_hist.py` (``plots_0_hist.py``)
-     - 00:01.143
+     - 00:01.621
      - 0.0
    * - :ref:`sphx_glr__source_auto_galleries_galleries_plots_plots_0_box.py` (``plots_0_box.py``)
-     - 00:01.132
+     - 00:01.176
      - 0.0
-   * - :ref:`sphx_glr__source_auto_galleries_galleries_plots_plots_0_bar.py` (``plots_0_bar.py``)
-     - 00:00.067
-     - 0.0
-   * - :ref:`sphx_glr__source_auto_galleries_galleries_plots_plots_0_others.py` (``plots_0_others.py``)
-     - 00:00.053
-     - 0.0
-   * - :ref:`sphx_glr__source_auto_galleries_galleries_plots_plots_0_heatmap.py` (``plots_0_heatmap.py``)
-     - 00:00.033
-     - 0.0
-   * - :ref:`sphx_glr__source_auto_galleries_galleries_plots_plots_0_line.py` (``plots_0_line.py``)
-     - 00:00.030
-     - 0.0
-   * - :ref:`sphx_glr__source_auto_galleries_galleries_plots_plots_0_scatter3d.py` (``plots_0_scatter3d.py``)
-     - 00:00.030
+   * - :ref:`sphx_glr__source_auto_galleries_galleries_plots_plots_0_hist.py` (``plots_0_hist.py``)
+     - 00:00.887
      - 0.0
    * - :ref:`sphx_glr__source_auto_galleries_galleries_plots_plots_0_scatter.py` (``plots_0_scatter.py``)
-     - 00:00.030
+     - 00:00.028
+     - 0.0
+   * - :ref:`sphx_glr__source_auto_galleries_galleries_plots_plots_0_others.py` (``plots_0_others.py``)
+     - 00:00.023
+     - 0.0
+   * - :ref:`sphx_glr__source_auto_galleries_galleries_plots_plots_0_bar.py` (``plots_0_bar.py``)
+     - 00:00.020
+     - 0.0
+   * - :ref:`sphx_glr__source_auto_galleries_galleries_plots_plots_0_scatter3d.py` (``plots_0_scatter3d.py``)
+     - 00:00.018
+     - 0.0
+   * - :ref:`sphx_glr__source_auto_galleries_galleries_plots_plots_0_line.py` (``plots_0_line.py``)
+     - 00:00.018
+     - 0.0
+   * - :ref:`sphx_glr__source_auto_galleries_galleries_plots_plots_0_heatmap.py` (``plots_0_heatmap.py``)
+     - 00:00.013
      - 0.0
